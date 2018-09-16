@@ -15,8 +15,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn import metrics
 
-df_train = pd.read_csv("/data/train.csv")
-df_test = pd.read_csv("/data/test.csv")
+df_train = pd.read_csv("/data/titanic/train.csv")
+df_test = pd.read_csv("/data/titanic/test.csv")
 
 features = list(df_train.columns.values)
 # Remove unwanted features

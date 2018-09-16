@@ -9,7 +9,7 @@ nvidia-docker2 sample project
   - keras(backend tensorflow)
 
 # how to use
-1. `Makefile
+1. check Makefile
 
 - NAME:container name
 - SRC:src path
